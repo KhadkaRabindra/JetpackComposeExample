@@ -5,8 +5,7 @@ import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import androidx.compose.foundation.layout.Box
-import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.*
 import androidx.compose.material.ExperimentalMaterialApi
 import androidx.compose.material.Scaffold
 import androidx.compose.material.rememberScaffoldState
@@ -19,15 +18,10 @@ import androidx.fragment.app.viewModels
 import androidx.lifecycle.lifecycleScope
 import com.codingwithmitch.mvvmrecipeapp.presentation.theme.AppTheme
 import com.maxx.passengerapp.MyApplication
-import com.maxx.passengerapp.presentation.components.CircularIndeterminateProgressBar
-import com.maxx.passengerapp.presentation.components.DefaultSnackbar
-import com.maxx.passengerapp.presentation.components.LoadingPassengerShimmer
-import com.maxx.passengerapp.presentation.components.PassengerView
+import com.maxx.passengerapp.presentation.components.*
 import com.maxx.passengerapp.presentation.components.util.SnackbarController
-import com.maxx.passengerapp.presentation.ui.main.IMAGE_HEIGHT
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.ExperimentalCoroutinesApi
-import kotlinx.coroutines.launch
 import javax.inject.Inject
 
 @ExperimentalMaterialApi
@@ -51,7 +45,11 @@ class DetailFragment : Fragment() {
     }
 
     @ExperimentalMaterialApi
-    override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
+    override fun onCreateView(
+        inflater: LayoutInflater,
+        container: ViewGroup?,
+        savedInstanceState: Bundle?
+    ): View? {
         return ComposeView(requireContext()).apply {
             setContent {
 
@@ -75,10 +73,24 @@ class DetailFragment : Fragment() {
                         Box(
                             modifier = Modifier.fillMaxSize()
                         ) {
-                            recipe?.let {
-                                PassengerView(
-                                    passenger = it,
-                                )
+
+                            Column(
+                                modifier = Modifier
+                                    .fillMaxWidth()
+                                    .padding(top = 12.dp, bottom = 12.dp, start = 8.dp, end = 8.dp)
+                            ) {
+                                recipe?.let {
+                                    PassengerView(
+                                        passenger = it,
+                                    )
+                                }
+
+                                if (recipe?.airline != null) {
+                                    AirlineList(
+                                        loading = loading,
+                                        airlines = recipe?.airline!!
+                                    )
+                                }
                             }
 
                             CircularIndeterminateProgressBar(

@@ -20,11 +20,7 @@ fun PassengerView(
         modifier = Modifier
             .fillMaxWidth()
     ) {
-        Column(
-            modifier = Modifier
-                .fillMaxWidth()
-                .padding(top=12.dp, bottom=12.dp, start = 8.dp, end=8.dp)
-        ){
+        Column(){
             Text(
                 text = "Name : ${passenger.name}",
                 modifier = Modifier

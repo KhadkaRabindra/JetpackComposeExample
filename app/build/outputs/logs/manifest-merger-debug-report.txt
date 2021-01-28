@@ -1,0 +1,310 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/maxx/WorkSpace/JetPackCompose/PassengerApp/app/src/main/AndroidManifest.xml:2:1-23:12
+INJECTED from /Users/maxx/WorkSpace/JetPackCompose/PassengerApp/app/src/main/AndroidManifest.xml:2:1-23:12
+INJECTED from /Users/maxx/WorkSpace/JetPackCompose/PassengerApp/app/src/main/AndroidManifest.xml:2:1-23:12
+INJECTED from /Users/maxx/WorkSpace/JetPackCompose/PassengerApp/app/src/main/AndroidManifest.xml:2:1-23:12
+MERGED from [androidx.ui:ui-tooling:1.0.0-alpha07] /Users/maxx/.gradle/caches/transforms-3/ae80aa34ceefb8140914d2a3b0e13800/transformed/ui-tooling-1.0.0-alpha07/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.compose.material:material:1.0.0-alpha10] /Users/maxx/.gradle/caches/transforms-3/c9ee6998a0bbf0bb39c509ca9175dc2d/transformed/material-1.0.0-alpha10/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.compose.material:material-ripple:1.0.0-alpha10] /Users/maxx/.gradle/caches/transforms-3/19d64fc45d38c46814c95cd1805230af/transformed/material-ripple-1.0.0-alpha10/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.compose.foundation:foundation:1.0.0-alpha10] /Users/maxx/.gradle/caches/transforms-3/de6dd6ca526ce7ec32e62896f69f3b78/transformed/foundation-1.0.0-alpha10/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.compose.runtime:runtime-livedata:1.0.0-alpha10] /Users/maxx/.gradle/caches/transforms-3/dd72b3082acb6341ec975c13ac0bc024/transformed/runtime-livedata-1.0.0-alpha10/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.compose.material:material-icons-extended:1.0.0-alpha10] /Users/maxx/.gradle/caches/transforms-3/1688d14390d46740bd6be0925c2519c3/transformed/material-icons-extended-1.0.0-alpha10/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.compose.material:material-icons-core:1.0.0-alpha10] /Users/maxx/.gradle/caches/transforms-3/7c2fb7475bd76b0772036c775875a235/transformed/material-icons-core-1.0.0-alpha10/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.compose.animation:animation:1.0.0-alpha10] /Users/maxx/.gradle/caches/transforms-3/68f136341da0f93ca862b832ae36e584/transformed/animation-1.0.0-alpha10/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.compose.foundation:foundation-layout:1.0.0-alpha10] /Users/maxx/.gradle/caches/transforms-3/78c083f1b8d6c7d26fc2ecfd4e19ebcb/transformed/foundation-layout-1.0.0-alpha10/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.compose.ui:ui:1.0.0-alpha10] /Users/maxx/.gradle/caches/transforms-3/d709696edc3621f888813e2f68427134/transformed/ui-1.0.0-alpha10/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.compose.runtime:runtime-rxjava2:1.0.0-alpha10] /Users/maxx/.gradle/caches/transforms-3/1d3ee2c09ebd3b71873255d4dd1c1177/transformed/runtime-rxjava2-1.0.0-alpha10/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.compose.animation:animation-core:1.0.0-alpha10] /Users/maxx/.gradle/caches/transforms-3/c895c575c7fcd79559474cadad15379a/transformed/animation-core-1.0.0-alpha10/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.compose.ui:ui-text:1.0.0-alpha10] /Users/maxx/.gradle/caches/transforms-3/adfe886ccca5d5d993786cbd445058d7/transformed/ui-text-1.0.0-alpha10/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.compose.runtime:runtime-saved-instance-state:1.0.0-alpha10] /Users/maxx/.gradle/caches/transforms-3/1b6c4bf8e4232b965104f21434eed9b5/transformed/runtime-saved-instance-state-1.0.0-alpha10/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.compose.ui:ui-graphics:1.0.0-alpha10] /Users/maxx/.gradle/caches/transforms-3/1e07f8eba8dd8dc5c53abcf68d7b7f8a/transformed/ui-graphics-1.0.0-alpha10/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.compose.ui:ui-unit:1.0.0-alpha10] /Users/maxx/.gradle/caches/transforms-3/5d3ed8237bb9e1ac4aee202f03a8b717/transformed/ui-unit-1.0.0-alpha10/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.compose.ui:ui-geometry:1.0.0-alpha10] /Users/maxx/.gradle/caches/transforms-3/b223705237dfece038299414f60aa22e/transformed/ui-geometry-1.0.0-alpha10/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.compose.ui:ui-util:1.0.0-alpha10] /Users/maxx/.gradle/caches/transforms-3/25786560daf146692953cee7fae73662/transformed/ui-util-1.0.0-alpha10/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.compose.runtime:runtime:1.0.0-alpha10] /Users/maxx/.gradle/caches/transforms-3/13e3427445767faadad96451dab53c0f/transformed/runtime-1.0.0-alpha10/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.3.2] /Users/maxx/.gradle/caches/transforms-3/a660c5cb2860b0d81811f9f4adfd7a1d/transformed/navigation-fragment-ktx-2.3.2/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment-ktx:1.2.4] /Users/maxx/.gradle/caches/transforms-3/802474790c3c6889c87c4f9d7f09e156/transformed/fragment-ktx-1.2.4/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.compose.runtime:runtime-dispatch:1.0.0-alpha10] /Users/maxx/.gradle/caches/transforms-3/87cd482b35f8abb18577bcf627c3bfe5/transformed/runtime-dispatch-1.0.0-alpha10/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-ui-ktx:2.3.2] /Users/maxx/.gradle/caches/transforms-3/b32cf185c9ecfea7b864cf4bc6f12137/transformed/navigation-ui-ktx-2.3.2/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.3.2] /Users/maxx/.gradle/caches/transforms-3/e47dd73f01dbb74a73cf6b08ebc711af/transformed/navigation-runtime-ktx-2.3.2/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-common-ktx:2.3.2] /Users/maxx/.gradle/caches/transforms-3/382a9ad06b73dfac07a74528086416be/transformed/navigation-common-ktx-2.3.2/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity-ktx:1.1.0] /Users/maxx/.gradle/caches/transforms-3/d245f455305908e8ff7779176cfe3c5e/transformed/activity-ktx-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core-ktx:1.3.2] /Users/maxx/.gradle/caches/transforms-3/5a1e84c20b9dfa95034be2a32e0eea27/transformed/core-ktx-1.3.2/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0] /Users/maxx/.gradle/caches/transforms-3/e20561ede2b5613324add1fac1adeeaa/transformed/lifecycle-viewmodel-ktx-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.2.0] /Users/maxx/.gradle/caches/transforms-3/ab974ada90946e52e3c755016125581f/transformed/lifecycle-runtime-ktx-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.2.0] /Users/maxx/.gradle/caches/transforms-3/d1cedac801a7fb79800e98696f992448/transformed/lifecycle-livedata-core-ktx-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-ui:2.3.2] /Users/maxx/.gradle/caches/transforms-3/a91a95cc942ef94cf1f674b58f7bf750/transformed/navigation-ui-2.3.2/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.material:material:1.2.1] /Users/maxx/.gradle/caches/transforms-3/1b99d358e143ed94ad80b1857c4c5eec/transformed/material-1.2.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/maxx/.gradle/caches/transforms-3/520ddfb961c3deb5d6e16e0b272eca98/transformed/constraintlayout-2.0.4/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat:1.3.0-alpha01] /Users/maxx/.gradle/caches/transforms-3/a27480be7e2e3e8641ff63cfd51da8f6/transformed/appcompat-1.3.0-alpha01/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.hilt:hilt-lifecycle-viewmodel:1.0.0-alpha01] /Users/maxx/.gradle/caches/transforms-3/26c1396ab766f9122a5a1dc526137d5d/transformed/hilt-lifecycle-viewmodel-1.0.0-alpha01/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.hilt:hilt-common:1.0.0-alpha01] /Users/maxx/.gradle/caches/transforms-3/2fe800c87e2498cb8a07daad97bec372/transformed/hilt-common-1.0.0-alpha01/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.dagger:hilt-android:2.28-alpha] /Users/maxx/.gradle/caches/transforms-3/79618aabb67c66f30a279de473dfdc1f/transformed/hilt-android-2.28-alpha/AndroidManifest.xml:16:1-19:12
+MERGED from [com.github.bumptech.glide:glide:4.11.0] /Users/maxx/.gradle/caches/transforms-3/d5c8dded94b33a8c0fdaebfdf839db3f/transformed/glide-4.11.0/AndroidManifest.xml:2:1-12:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/maxx/.gradle/caches/transforms-3/24e3984609f936b934e90d8997b69325/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/maxx/.gradle/caches/transforms-3/76c4337b6c5d3ad25e67bbf8bc04d888/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.3.0-alpha01] /Users/maxx/.gradle/caches/transforms-3/f773b8163d15449299cbb27c683fdf37/transformed/appcompat-resources-1.3.0-alpha01/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/maxx/.gradle/caches/transforms-3/743a82939a232b1041e38ae7f3601d05/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/maxx/.gradle/caches/transforms-3/bfb628bbdbc94fb2e0f103fb7ae82864/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/maxx/.gradle/caches/transforms-3/694bb186c95d1f99b632798a50041b2f/transformed/viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-fragment:2.3.2] /Users/maxx/.gradle/caches/transforms-3/4cd9dbdb161d71d4d08d55004a76a83a/transformed/navigation-fragment-2.3.2/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.3.0-alpha07] /Users/maxx/.gradle/caches/transforms-3/58bc188d4e6575d6bc38be328e4ec1aa/transformed/fragment-1.3.0-alpha07/AndroidManifest.xml:17:1-24:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.11.0] /Users/maxx/.gradle/caches/transforms-3/a9d20f49aad73e40408fd299402160eb/transformed/gifdecoder-4.11.0/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] /Users/maxx/.gradle/caches/transforms-3/78cd56017a1fa5a301f85fa62221eea2/transformed/exifinterface-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/maxx/.gradle/caches/transforms-3/6ccb8b5f0e611640f8e1a720fb4c7322/transformed/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-runtime:2.3.2] /Users/maxx/.gradle/caches/transforms-3/ac37604990c70b239ee52d6eba52e6f4/transformed/navigation-runtime-2.3.2/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.2.0-alpha07] /Users/maxx/.gradle/caches/transforms-3/944f62d41dcafc58216aea1a5200eca9/transformed/activity-1.2.0-alpha07/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.autofill:autofill:1.0.0] /Users/maxx/.gradle/caches/transforms-3/75f351b1b08a91dcb831e188d8b1cdbc/transformed/autofill-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/maxx/.gradle/caches/transforms-3/dfa6757c0fbbcf7775e28790907edf15/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/maxx/.gradle/caches/transforms-3/26e15465eca336a8fc7ee8ea6db11289/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/maxx/.gradle/caches/transforms-3/e93f543aff489f89a26c140c705926cd/transformed/drawerlayout-1.1.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.1.0] /Users/maxx/.gradle/caches/transforms-3/761e669cb5455ce7a6465b4e335618d9/transformed/customview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.3.0] /Users/maxx/.gradle/caches/transforms-3/5dc9347497cada8cf7ee1844a79b4881/transformed/transition-1.3.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-common:2.3.2] /Users/maxx/.gradle/caches/transforms-3/262a93b08274ad7c2fbb3563811f8d3e/transformed/navigation-common-2.3.2/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.5.0-alpha01] /Users/maxx/.gradle/caches/transforms-3/57df57a4385ee14fba58b9373586f848/transformed/core-1.5.0-alpha01/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/maxx/.gradle/caches/transforms-3/8301584bc9e3e8049875d8e5ceab94b5/transformed/versionedparcelable-1.1.0/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.0-alpha06] /Users/maxx/.gradle/caches/transforms-3/a3adb4ce0ced14c1620ae4f156d17e01/transformed/lifecycle-viewmodel-savedstate-2.3.0-alpha06/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.0-alpha06] /Users/maxx/.gradle/caches/transforms-3/8f6240cecf5e4bd214ed373eade026f1/transformed/lifecycle-viewmodel-2.3.0-alpha06/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.1.0-alpha01] /Users/maxx/.gradle/caches/transforms-3/caaed181a158d5a7ce8d6c7773f391f7/transformed/savedstate-1.1.0-alpha01/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/maxx/.gradle/caches/transforms-3/421316734d2d50cb177b2a9574c3d770/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] /Users/maxx/.gradle/caches/transforms-3/512589235e2e907f8b19561fe4d87ed9/transformed/lifecycle-livedata-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.0-alpha06] /Users/maxx/.gradle/caches/transforms-3/a711d734255ab500898df0a027b69e64/transformed/lifecycle-livedata-core-2.3.0-alpha06/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.0-alpha06] /Users/maxx/.gradle/caches/transforms-3/e8114342513cede89c303a65524dd44e/transformed/lifecycle-runtime-2.3.0-alpha06/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/maxx/.gradle/caches/transforms-3/70006dd5723914617b163294584bbb80/transformed/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/maxx/.gradle/caches/transforms-3/fe624d44f63561dc4ad3bffd40f3bb8f/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /Users/maxx/.gradle/caches/transforms-3/f5a258f74b0ad180458ecb309150f355/transformed/annotation-experimental-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.dagger:dagger-lint-aar:2.28] /Users/maxx/.gradle/caches/transforms-3/24f1874486c4ea675fa686aeb95377bc/transformed/dagger-lint-aar-2.28/AndroidManifest.xml:16:1-18:12
+INJECTED from /Users/maxx/WorkSpace/JetPackCompose/PassengerApp/app/src/main/AndroidManifest.xml:2:1-23:12
+INJECTED from /Users/maxx/WorkSpace/JetPackCompose/PassengerApp/app/src/main/AndroidManifest.xml:2:1-23:12
+INJECTED from /Users/maxx/WorkSpace/JetPackCompose/PassengerApp/app/src/main/AndroidManifest.xml:2:1-23:12
+	package
+		ADDED from /Users/maxx/WorkSpace/JetPackCompose/PassengerApp/app/src/main/AndroidManifest.xml:3:5-36
+		INJECTED from /Users/maxx/WorkSpace/JetPackCompose/PassengerApp/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/maxx/WorkSpace/JetPackCompose/PassengerApp/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/maxx/WorkSpace/JetPackCompose/PassengerApp/app/src/main/AndroidManifest.xml
+		ADDED from /Users/maxx/WorkSpace/JetPackCompose/PassengerApp/app/src/main/AndroidManifest.xml:2:1-23:12
+		INJECTED from /Users/maxx/WorkSpace/JetPackCompose/PassengerApp/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/maxx/WorkSpace/JetPackCompose/PassengerApp/app/src/main/AndroidManifest.xml
+		ADDED from /Users/maxx/WorkSpace/JetPackCompose/PassengerApp/app/src/main/AndroidManifest.xml:2:1-23:12
+		INJECTED from /Users/maxx/WorkSpace/JetPackCompose/PassengerApp/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/maxx/WorkSpace/JetPackCompose/PassengerApp/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/maxx/WorkSpace/JetPackCompose/PassengerApp/app/src/main/AndroidManifest.xml:4:5-66
+	android:name
+		ADDED from /Users/maxx/WorkSpace/JetPackCompose/PassengerApp/app/src/main/AndroidManifest.xml:4:22-64
+application
+ADDED from /Users/maxx/WorkSpace/JetPackCompose/PassengerApp/app/src/main/AndroidManifest.xml:6:5-21:19
+MERGED from [androidx.ui:ui-tooling:1.0.0-alpha07] /Users/maxx/.gradle/caches/transforms-3/ae80aa34ceefb8140914d2a3b0e13800/transformed/ui-tooling-1.0.0-alpha07/AndroidManifest.xml:24:5-28:19
+MERGED from [androidx.ui:ui-tooling:1.0.0-alpha07] /Users/maxx/.gradle/caches/transforms-3/ae80aa34ceefb8140914d2a3b0e13800/transformed/ui-tooling-1.0.0-alpha07/AndroidManifest.xml:24:5-28:19
+MERGED from [com.google.android.material:material:1.2.1] /Users/maxx/.gradle/caches/transforms-3/1b99d358e143ed94ad80b1857c4c5eec/transformed/material-1.2.1/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.2.1] /Users/maxx/.gradle/caches/transforms-3/1b99d358e143ed94ad80b1857c4c5eec/transformed/material-1.2.1/AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/maxx/.gradle/caches/transforms-3/520ddfb961c3deb5d6e16e0b272eca98/transformed/constraintlayout-2.0.4/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/maxx/.gradle/caches/transforms-3/520ddfb961c3deb5d6e16e0b272eca98/transformed/constraintlayout-2.0.4/AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:glide:4.11.0] /Users/maxx/.gradle/caches/transforms-3/d5c8dded94b33a8c0fdaebfdf839db3f/transformed/glide-4.11.0/AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:glide:4.11.0] /Users/maxx/.gradle/caches/transforms-3/d5c8dded94b33a8c0fdaebfdf839db3f/transformed/glide-4.11.0/AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.11.0] /Users/maxx/.gradle/caches/transforms-3/a9d20f49aad73e40408fd299402160eb/transformed/gifdecoder-4.11.0/AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.11.0] /Users/maxx/.gradle/caches/transforms-3/a9d20f49aad73e40408fd299402160eb/transformed/gifdecoder-4.11.0/AndroidManifest.xml:9:5-20
+MERGED from [androidx.core:core:1.5.0-alpha01] /Users/maxx/.gradle/caches/transforms-3/57df57a4385ee14fba58b9373586f848/transformed/core-1.5.0-alpha01/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.5.0-alpha01] /Users/maxx/.gradle/caches/transforms-3/57df57a4385ee14fba58b9373586f848/transformed/core-1.5.0-alpha01/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/maxx/.gradle/caches/transforms-3/8301584bc9e3e8049875d8e5ceab94b5/transformed/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/maxx/.gradle/caches/transforms-3/8301584bc9e3e8049875d8e5ceab94b5/transformed/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.5.0-alpha01] /Users/maxx/.gradle/caches/transforms-3/57df57a4385ee14fba58b9373586f848/transformed/core-1.5.0-alpha01/AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from /Users/maxx/WorkSpace/JetPackCompose/PassengerApp/app/src/main/AndroidManifest.xml:12:9-35
+	android:label
+		ADDED from /Users/maxx/WorkSpace/JetPackCompose/PassengerApp/app/src/main/AndroidManifest.xml:10:9-41
+	android:roundIcon
+		ADDED from /Users/maxx/WorkSpace/JetPackCompose/PassengerApp/app/src/main/AndroidManifest.xml:11:9-54
+	android:icon
+		ADDED from /Users/maxx/WorkSpace/JetPackCompose/PassengerApp/app/src/main/AndroidManifest.xml:9:9-43
+	android:allowBackup
+		ADDED from /Users/maxx/WorkSpace/JetPackCompose/PassengerApp/app/src/main/AndroidManifest.xml:8:9-35
+	android:theme
+		ADDED from /Users/maxx/WorkSpace/JetPackCompose/PassengerApp/app/src/main/AndroidManifest.xml:13:9-50
+	android:name
+		ADDED from /Users/maxx/WorkSpace/JetPackCompose/PassengerApp/app/src/main/AndroidManifest.xml:7:9-38
+activity#com.maxx.passengerapp.presentation.ui.main.MainActivity
+ADDED from /Users/maxx/WorkSpace/JetPackCompose/PassengerApp/app/src/main/AndroidManifest.xml:14:9-20:20
+	android:name
+		ADDED from /Users/maxx/WorkSpace/JetPackCompose/PassengerApp/app/src/main/AndroidManifest.xml:14:19-68
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/maxx/WorkSpace/JetPackCompose/PassengerApp/app/src/main/AndroidManifest.xml:15:13-19:29
+action#android.intent.action.MAIN
+ADDED from /Users/maxx/WorkSpace/JetPackCompose/PassengerApp/app/src/main/AndroidManifest.xml:16:17-69
+	android:name
+		ADDED from /Users/maxx/WorkSpace/JetPackCompose/PassengerApp/app/src/main/AndroidManifest.xml:16:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/maxx/WorkSpace/JetPackCompose/PassengerApp/app/src/main/AndroidManifest.xml:18:17-77
+	android:name
+		ADDED from /Users/maxx/WorkSpace/JetPackCompose/PassengerApp/app/src/main/AndroidManifest.xml:18:27-74
+uses-sdk
+INJECTED from /Users/maxx/WorkSpace/JetPackCompose/PassengerApp/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/maxx/WorkSpace/JetPackCompose/PassengerApp/app/src/main/AndroidManifest.xml
+INJECTED from /Users/maxx/WorkSpace/JetPackCompose/PassengerApp/app/src/main/AndroidManifest.xml
+MERGED from [androidx.ui:ui-tooling:1.0.0-alpha07] /Users/maxx/.gradle/caches/transforms-3/ae80aa34ceefb8140914d2a3b0e13800/transformed/ui-tooling-1.0.0-alpha07/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.ui:ui-tooling:1.0.0-alpha07] /Users/maxx/.gradle/caches/transforms-3/ae80aa34ceefb8140914d2a3b0e13800/transformed/ui-tooling-1.0.0-alpha07/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.material:material:1.0.0-alpha10] /Users/maxx/.gradle/caches/transforms-3/c9ee6998a0bbf0bb39c509ca9175dc2d/transformed/material-1.0.0-alpha10/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.material:material:1.0.0-alpha10] /Users/maxx/.gradle/caches/transforms-3/c9ee6998a0bbf0bb39c509ca9175dc2d/transformed/material-1.0.0-alpha10/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.material:material-ripple:1.0.0-alpha10] /Users/maxx/.gradle/caches/transforms-3/19d64fc45d38c46814c95cd1805230af/transformed/material-ripple-1.0.0-alpha10/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.material:material-ripple:1.0.0-alpha10] /Users/maxx/.gradle/caches/transforms-3/19d64fc45d38c46814c95cd1805230af/transformed/material-ripple-1.0.0-alpha10/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.foundation:foundation:1.0.0-alpha10] /Users/maxx/.gradle/caches/transforms-3/de6dd6ca526ce7ec32e62896f69f3b78/transformed/foundation-1.0.0-alpha10/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.foundation:foundation:1.0.0-alpha10] /Users/maxx/.gradle/caches/transforms-3/de6dd6ca526ce7ec32e62896f69f3b78/transformed/foundation-1.0.0-alpha10/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.runtime:runtime-livedata:1.0.0-alpha10] /Users/maxx/.gradle/caches/transforms-3/dd72b3082acb6341ec975c13ac0bc024/transformed/runtime-livedata-1.0.0-alpha10/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.runtime:runtime-livedata:1.0.0-alpha10] /Users/maxx/.gradle/caches/transforms-3/dd72b3082acb6341ec975c13ac0bc024/transformed/runtime-livedata-1.0.0-alpha10/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.material:material-icons-extended:1.0.0-alpha10] /Users/maxx/.gradle/caches/transforms-3/1688d14390d46740bd6be0925c2519c3/transformed/material-icons-extended-1.0.0-alpha10/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.material:material-icons-extended:1.0.0-alpha10] /Users/maxx/.gradle/caches/transforms-3/1688d14390d46740bd6be0925c2519c3/transformed/material-icons-extended-1.0.0-alpha10/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.material:material-icons-core:1.0.0-alpha10] /Users/maxx/.gradle/caches/transforms-3/7c2fb7475bd76b0772036c775875a235/transformed/material-icons-core-1.0.0-alpha10/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.material:material-icons-core:1.0.0-alpha10] /Users/maxx/.gradle/caches/transforms-3/7c2fb7475bd76b0772036c775875a235/transformed/material-icons-core-1.0.0-alpha10/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.animation:animation:1.0.0-alpha10] /Users/maxx/.gradle/caches/transforms-3/68f136341da0f93ca862b832ae36e584/transformed/animation-1.0.0-alpha10/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.animation:animation:1.0.0-alpha10] /Users/maxx/.gradle/caches/transforms-3/68f136341da0f93ca862b832ae36e584/transformed/animation-1.0.0-alpha10/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.foundation:foundation-layout:1.0.0-alpha10] /Users/maxx/.gradle/caches/transforms-3/78c083f1b8d6c7d26fc2ecfd4e19ebcb/transformed/foundation-layout-1.0.0-alpha10/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.foundation:foundation-layout:1.0.0-alpha10] /Users/maxx/.gradle/caches/transforms-3/78c083f1b8d6c7d26fc2ecfd4e19ebcb/transformed/foundation-layout-1.0.0-alpha10/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.ui:ui:1.0.0-alpha10] /Users/maxx/.gradle/caches/transforms-3/d709696edc3621f888813e2f68427134/transformed/ui-1.0.0-alpha10/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.ui:ui:1.0.0-alpha10] /Users/maxx/.gradle/caches/transforms-3/d709696edc3621f888813e2f68427134/transformed/ui-1.0.0-alpha10/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.runtime:runtime-rxjava2:1.0.0-alpha10] /Users/maxx/.gradle/caches/transforms-3/1d3ee2c09ebd3b71873255d4dd1c1177/transformed/runtime-rxjava2-1.0.0-alpha10/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.runtime:runtime-rxjava2:1.0.0-alpha10] /Users/maxx/.gradle/caches/transforms-3/1d3ee2c09ebd3b71873255d4dd1c1177/transformed/runtime-rxjava2-1.0.0-alpha10/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.animation:animation-core:1.0.0-alpha10] /Users/maxx/.gradle/caches/transforms-3/c895c575c7fcd79559474cadad15379a/transformed/animation-core-1.0.0-alpha10/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.animation:animation-core:1.0.0-alpha10] /Users/maxx/.gradle/caches/transforms-3/c895c575c7fcd79559474cadad15379a/transformed/animation-core-1.0.0-alpha10/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.ui:ui-text:1.0.0-alpha10] /Users/maxx/.gradle/caches/transforms-3/adfe886ccca5d5d993786cbd445058d7/transformed/ui-text-1.0.0-alpha10/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.ui:ui-text:1.0.0-alpha10] /Users/maxx/.gradle/caches/transforms-3/adfe886ccca5d5d993786cbd445058d7/transformed/ui-text-1.0.0-alpha10/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.runtime:runtime-saved-instance-state:1.0.0-alpha10] /Users/maxx/.gradle/caches/transforms-3/1b6c4bf8e4232b965104f21434eed9b5/transformed/runtime-saved-instance-state-1.0.0-alpha10/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.runtime:runtime-saved-instance-state:1.0.0-alpha10] /Users/maxx/.gradle/caches/transforms-3/1b6c4bf8e4232b965104f21434eed9b5/transformed/runtime-saved-instance-state-1.0.0-alpha10/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.ui:ui-graphics:1.0.0-alpha10] /Users/maxx/.gradle/caches/transforms-3/1e07f8eba8dd8dc5c53abcf68d7b7f8a/transformed/ui-graphics-1.0.0-alpha10/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.ui:ui-graphics:1.0.0-alpha10] /Users/maxx/.gradle/caches/transforms-3/1e07f8eba8dd8dc5c53abcf68d7b7f8a/transformed/ui-graphics-1.0.0-alpha10/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.ui:ui-unit:1.0.0-alpha10] /Users/maxx/.gradle/caches/transforms-3/5d3ed8237bb9e1ac4aee202f03a8b717/transformed/ui-unit-1.0.0-alpha10/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.ui:ui-unit:1.0.0-alpha10] /Users/maxx/.gradle/caches/transforms-3/5d3ed8237bb9e1ac4aee202f03a8b717/transformed/ui-unit-1.0.0-alpha10/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.ui:ui-geometry:1.0.0-alpha10] /Users/maxx/.gradle/caches/transforms-3/b223705237dfece038299414f60aa22e/transformed/ui-geometry-1.0.0-alpha10/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.ui:ui-geometry:1.0.0-alpha10] /Users/maxx/.gradle/caches/transforms-3/b223705237dfece038299414f60aa22e/transformed/ui-geometry-1.0.0-alpha10/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.ui:ui-util:1.0.0-alpha10] /Users/maxx/.gradle/caches/transforms-3/25786560daf146692953cee7fae73662/transformed/ui-util-1.0.0-alpha10/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.ui:ui-util:1.0.0-alpha10] /Users/maxx/.gradle/caches/transforms-3/25786560daf146692953cee7fae73662/transformed/ui-util-1.0.0-alpha10/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.runtime:runtime:1.0.0-alpha10] /Users/maxx/.gradle/caches/transforms-3/13e3427445767faadad96451dab53c0f/transformed/runtime-1.0.0-alpha10/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.runtime:runtime:1.0.0-alpha10] /Users/maxx/.gradle/caches/transforms-3/13e3427445767faadad96451dab53c0f/transformed/runtime-1.0.0-alpha10/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.3.2] /Users/maxx/.gradle/caches/transforms-3/a660c5cb2860b0d81811f9f4adfd7a1d/transformed/navigation-fragment-ktx-2.3.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.3.2] /Users/maxx/.gradle/caches/transforms-3/a660c5cb2860b0d81811f9f4adfd7a1d/transformed/navigation-fragment-ktx-2.3.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.2.4] /Users/maxx/.gradle/caches/transforms-3/802474790c3c6889c87c4f9d7f09e156/transformed/fragment-ktx-1.2.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.2.4] /Users/maxx/.gradle/caches/transforms-3/802474790c3c6889c87c4f9d7f09e156/transformed/fragment-ktx-1.2.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.runtime:runtime-dispatch:1.0.0-alpha10] /Users/maxx/.gradle/caches/transforms-3/87cd482b35f8abb18577bcf627c3bfe5/transformed/runtime-dispatch-1.0.0-alpha10/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.runtime:runtime-dispatch:1.0.0-alpha10] /Users/maxx/.gradle/caches/transforms-3/87cd482b35f8abb18577bcf627c3bfe5/transformed/runtime-dispatch-1.0.0-alpha10/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui-ktx:2.3.2] /Users/maxx/.gradle/caches/transforms-3/b32cf185c9ecfea7b864cf4bc6f12137/transformed/navigation-ui-ktx-2.3.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui-ktx:2.3.2] /Users/maxx/.gradle/caches/transforms-3/b32cf185c9ecfea7b864cf4bc6f12137/transformed/navigation-ui-ktx-2.3.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.3.2] /Users/maxx/.gradle/caches/transforms-3/e47dd73f01dbb74a73cf6b08ebc711af/transformed/navigation-runtime-ktx-2.3.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.3.2] /Users/maxx/.gradle/caches/transforms-3/e47dd73f01dbb74a73cf6b08ebc711af/transformed/navigation-runtime-ktx-2.3.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common-ktx:2.3.2] /Users/maxx/.gradle/caches/transforms-3/382a9ad06b73dfac07a74528086416be/transformed/navigation-common-ktx-2.3.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common-ktx:2.3.2] /Users/maxx/.gradle/caches/transforms-3/382a9ad06b73dfac07a74528086416be/transformed/navigation-common-ktx-2.3.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.1.0] /Users/maxx/.gradle/caches/transforms-3/d245f455305908e8ff7779176cfe3c5e/transformed/activity-ktx-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.1.0] /Users/maxx/.gradle/caches/transforms-3/d245f455305908e8ff7779176cfe3c5e/transformed/activity-ktx-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core-ktx:1.3.2] /Users/maxx/.gradle/caches/transforms-3/5a1e84c20b9dfa95034be2a32e0eea27/transformed/core-ktx-1.3.2/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.3.2] /Users/maxx/.gradle/caches/transforms-3/5a1e84c20b9dfa95034be2a32e0eea27/transformed/core-ktx-1.3.2/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0] /Users/maxx/.gradle/caches/transforms-3/e20561ede2b5613324add1fac1adeeaa/transformed/lifecycle-viewmodel-ktx-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0] /Users/maxx/.gradle/caches/transforms-3/e20561ede2b5613324add1fac1adeeaa/transformed/lifecycle-viewmodel-ktx-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.2.0] /Users/maxx/.gradle/caches/transforms-3/ab974ada90946e52e3c755016125581f/transformed/lifecycle-runtime-ktx-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.2.0] /Users/maxx/.gradle/caches/transforms-3/ab974ada90946e52e3c755016125581f/transformed/lifecycle-runtime-ktx-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.2.0] /Users/maxx/.gradle/caches/transforms-3/d1cedac801a7fb79800e98696f992448/transformed/lifecycle-livedata-core-ktx-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.2.0] /Users/maxx/.gradle/caches/transforms-3/d1cedac801a7fb79800e98696f992448/transformed/lifecycle-livedata-core-ktx-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui:2.3.2] /Users/maxx/.gradle/caches/transforms-3/a91a95cc942ef94cf1f674b58f7bf750/transformed/navigation-ui-2.3.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui:2.3.2] /Users/maxx/.gradle/caches/transforms-3/a91a95cc942ef94cf1f674b58f7bf750/transformed/navigation-ui-2.3.2/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.material:material:1.2.1] /Users/maxx/.gradle/caches/transforms-3/1b99d358e143ed94ad80b1857c4c5eec/transformed/material-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.2.1] /Users/maxx/.gradle/caches/transforms-3/1b99d358e143ed94ad80b1857c4c5eec/transformed/material-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/maxx/.gradle/caches/transforms-3/520ddfb961c3deb5d6e16e0b272eca98/transformed/constraintlayout-2.0.4/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/maxx/.gradle/caches/transforms-3/520ddfb961c3deb5d6e16e0b272eca98/transformed/constraintlayout-2.0.4/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat:1.3.0-alpha01] /Users/maxx/.gradle/caches/transforms-3/a27480be7e2e3e8641ff63cfd51da8f6/transformed/appcompat-1.3.0-alpha01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.3.0-alpha01] /Users/maxx/.gradle/caches/transforms-3/a27480be7e2e3e8641ff63cfd51da8f6/transformed/appcompat-1.3.0-alpha01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.hilt:hilt-lifecycle-viewmodel:1.0.0-alpha01] /Users/maxx/.gradle/caches/transforms-3/26c1396ab766f9122a5a1dc526137d5d/transformed/hilt-lifecycle-viewmodel-1.0.0-alpha01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.hilt:hilt-lifecycle-viewmodel:1.0.0-alpha01] /Users/maxx/.gradle/caches/transforms-3/26c1396ab766f9122a5a1dc526137d5d/transformed/hilt-lifecycle-viewmodel-1.0.0-alpha01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.hilt:hilt-common:1.0.0-alpha01] /Users/maxx/.gradle/caches/transforms-3/2fe800c87e2498cb8a07daad97bec372/transformed/hilt-common-1.0.0-alpha01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.hilt:hilt-common:1.0.0-alpha01] /Users/maxx/.gradle/caches/transforms-3/2fe800c87e2498cb8a07daad97bec372/transformed/hilt-common-1.0.0-alpha01/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.dagger:hilt-android:2.28-alpha] /Users/maxx/.gradle/caches/transforms-3/79618aabb67c66f30a279de473dfdc1f/transformed/hilt-android-2.28-alpha/AndroidManifest.xml:18:3-42
+MERGED from [com.google.dagger:hilt-android:2.28-alpha] /Users/maxx/.gradle/caches/transforms-3/79618aabb67c66f30a279de473dfdc1f/transformed/hilt-android-2.28-alpha/AndroidManifest.xml:18:3-42
+MERGED from [com.github.bumptech.glide:glide:4.11.0] /Users/maxx/.gradle/caches/transforms-3/d5c8dded94b33a8c0fdaebfdf839db3f/transformed/glide-4.11.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.11.0] /Users/maxx/.gradle/caches/transforms-3/d5c8dded94b33a8c0fdaebfdf839db3f/transformed/glide-4.11.0/AndroidManifest.xml:6:5-8:41
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/maxx/.gradle/caches/transforms-3/24e3984609f936b934e90d8997b69325/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/maxx/.gradle/caches/transforms-3/24e3984609f936b934e90d8997b69325/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/maxx/.gradle/caches/transforms-3/76c4337b6c5d3ad25e67bbf8bc04d888/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/maxx/.gradle/caches/transforms-3/76c4337b6c5d3ad25e67bbf8bc04d888/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.3.0-alpha01] /Users/maxx/.gradle/caches/transforms-3/f773b8163d15449299cbb27c683fdf37/transformed/appcompat-resources-1.3.0-alpha01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.3.0-alpha01] /Users/maxx/.gradle/caches/transforms-3/f773b8163d15449299cbb27c683fdf37/transformed/appcompat-resources-1.3.0-alpha01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/maxx/.gradle/caches/transforms-3/743a82939a232b1041e38ae7f3601d05/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/maxx/.gradle/caches/transforms-3/743a82939a232b1041e38ae7f3601d05/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/maxx/.gradle/caches/transforms-3/bfb628bbdbc94fb2e0f103fb7ae82864/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/maxx/.gradle/caches/transforms-3/bfb628bbdbc94fb2e0f103fb7ae82864/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/maxx/.gradle/caches/transforms-3/694bb186c95d1f99b632798a50041b2f/transformed/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/maxx/.gradle/caches/transforms-3/694bb186c95d1f99b632798a50041b2f/transformed/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment:2.3.2] /Users/maxx/.gradle/caches/transforms-3/4cd9dbdb161d71d4d08d55004a76a83a/transformed/navigation-fragment-2.3.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment:2.3.2] /Users/maxx/.gradle/caches/transforms-3/4cd9dbdb161d71d4d08d55004a76a83a/transformed/navigation-fragment-2.3.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.0-alpha07] /Users/maxx/.gradle/caches/transforms-3/58bc188d4e6575d6bc38be328e4ec1aa/transformed/fragment-1.3.0-alpha07/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.0-alpha07] /Users/maxx/.gradle/caches/transforms-3/58bc188d4e6575d6bc38be328e4ec1aa/transformed/fragment-1.3.0-alpha07/AndroidManifest.xml:20:5-22:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.11.0] /Users/maxx/.gradle/caches/transforms-3/a9d20f49aad73e40408fd299402160eb/transformed/gifdecoder-4.11.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.11.0] /Users/maxx/.gradle/caches/transforms-3/a9d20f49aad73e40408fd299402160eb/transformed/gifdecoder-4.11.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] /Users/maxx/.gradle/caches/transforms-3/78cd56017a1fa5a301f85fa62221eea2/transformed/exifinterface-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] /Users/maxx/.gradle/caches/transforms-3/78cd56017a1fa5a301f85fa62221eea2/transformed/exifinterface-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/maxx/.gradle/caches/transforms-3/6ccb8b5f0e611640f8e1a720fb4c7322/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/maxx/.gradle/caches/transforms-3/6ccb8b5f0e611640f8e1a720fb4c7322/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime:2.3.2] /Users/maxx/.gradle/caches/transforms-3/ac37604990c70b239ee52d6eba52e6f4/transformed/navigation-runtime-2.3.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime:2.3.2] /Users/maxx/.gradle/caches/transforms-3/ac37604990c70b239ee52d6eba52e6f4/transformed/navigation-runtime-2.3.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.0-alpha07] /Users/maxx/.gradle/caches/transforms-3/944f62d41dcafc58216aea1a5200eca9/transformed/activity-1.2.0-alpha07/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.0-alpha07] /Users/maxx/.gradle/caches/transforms-3/944f62d41dcafc58216aea1a5200eca9/transformed/activity-1.2.0-alpha07/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.autofill:autofill:1.0.0] /Users/maxx/.gradle/caches/transforms-3/75f351b1b08a91dcb831e188d8b1cdbc/transformed/autofill-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.autofill:autofill:1.0.0] /Users/maxx/.gradle/caches/transforms-3/75f351b1b08a91dcb831e188d8b1cdbc/transformed/autofill-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/maxx/.gradle/caches/transforms-3/dfa6757c0fbbcf7775e28790907edf15/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/maxx/.gradle/caches/transforms-3/dfa6757c0fbbcf7775e28790907edf15/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/maxx/.gradle/caches/transforms-3/26e15465eca336a8fc7ee8ea6db11289/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/maxx/.gradle/caches/transforms-3/26e15465eca336a8fc7ee8ea6db11289/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/maxx/.gradle/caches/transforms-3/e93f543aff489f89a26c140c705926cd/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/maxx/.gradle/caches/transforms-3/e93f543aff489f89a26c140c705926cd/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] /Users/maxx/.gradle/caches/transforms-3/761e669cb5455ce7a6465b4e335618d9/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] /Users/maxx/.gradle/caches/transforms-3/761e669cb5455ce7a6465b4e335618d9/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.3.0] /Users/maxx/.gradle/caches/transforms-3/5dc9347497cada8cf7ee1844a79b4881/transformed/transition-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.3.0] /Users/maxx/.gradle/caches/transforms-3/5dc9347497cada8cf7ee1844a79b4881/transformed/transition-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common:2.3.2] /Users/maxx/.gradle/caches/transforms-3/262a93b08274ad7c2fbb3563811f8d3e/transformed/navigation-common-2.3.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common:2.3.2] /Users/maxx/.gradle/caches/transforms-3/262a93b08274ad7c2fbb3563811f8d3e/transformed/navigation-common-2.3.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.5.0-alpha01] /Users/maxx/.gradle/caches/transforms-3/57df57a4385ee14fba58b9373586f848/transformed/core-1.5.0-alpha01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.5.0-alpha01] /Users/maxx/.gradle/caches/transforms-3/57df57a4385ee14fba58b9373586f848/transformed/core-1.5.0-alpha01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/maxx/.gradle/caches/transforms-3/8301584bc9e3e8049875d8e5ceab94b5/transformed/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/maxx/.gradle/caches/transforms-3/8301584bc9e3e8049875d8e5ceab94b5/transformed/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.0-alpha06] /Users/maxx/.gradle/caches/transforms-3/a3adb4ce0ced14c1620ae4f156d17e01/transformed/lifecycle-viewmodel-savedstate-2.3.0-alpha06/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.0-alpha06] /Users/maxx/.gradle/caches/transforms-3/a3adb4ce0ced14c1620ae4f156d17e01/transformed/lifecycle-viewmodel-savedstate-2.3.0-alpha06/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.0-alpha06] /Users/maxx/.gradle/caches/transforms-3/8f6240cecf5e4bd214ed373eade026f1/transformed/lifecycle-viewmodel-2.3.0-alpha06/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.0-alpha06] /Users/maxx/.gradle/caches/transforms-3/8f6240cecf5e4bd214ed373eade026f1/transformed/lifecycle-viewmodel-2.3.0-alpha06/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0-alpha01] /Users/maxx/.gradle/caches/transforms-3/caaed181a158d5a7ce8d6c7773f391f7/transformed/savedstate-1.1.0-alpha01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0-alpha01] /Users/maxx/.gradle/caches/transforms-3/caaed181a158d5a7ce8d6c7773f391f7/transformed/savedstate-1.1.0-alpha01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/maxx/.gradle/caches/transforms-3/421316734d2d50cb177b2a9574c3d770/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/maxx/.gradle/caches/transforms-3/421316734d2d50cb177b2a9574c3d770/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] /Users/maxx/.gradle/caches/transforms-3/512589235e2e907f8b19561fe4d87ed9/transformed/lifecycle-livedata-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] /Users/maxx/.gradle/caches/transforms-3/512589235e2e907f8b19561fe4d87ed9/transformed/lifecycle-livedata-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.0-alpha06] /Users/maxx/.gradle/caches/transforms-3/a711d734255ab500898df0a027b69e64/transformed/lifecycle-livedata-core-2.3.0-alpha06/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.0-alpha06] /Users/maxx/.gradle/caches/transforms-3/a711d734255ab500898df0a027b69e64/transformed/lifecycle-livedata-core-2.3.0-alpha06/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.0-alpha06] /Users/maxx/.gradle/caches/transforms-3/e8114342513cede89c303a65524dd44e/transformed/lifecycle-runtime-2.3.0-alpha06/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.0-alpha06] /Users/maxx/.gradle/caches/transforms-3/e8114342513cede89c303a65524dd44e/transformed/lifecycle-runtime-2.3.0-alpha06/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/maxx/.gradle/caches/transforms-3/70006dd5723914617b163294584bbb80/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/maxx/.gradle/caches/transforms-3/70006dd5723914617b163294584bbb80/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/maxx/.gradle/caches/transforms-3/fe624d44f63561dc4ad3bffd40f3bb8f/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/maxx/.gradle/caches/transforms-3/fe624d44f63561dc4ad3bffd40f3bb8f/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /Users/maxx/.gradle/caches/transforms-3/f5a258f74b0ad180458ecb309150f355/transformed/annotation-experimental-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /Users/maxx/.gradle/caches/transforms-3/f5a258f74b0ad180458ecb309150f355/transformed/annotation-experimental-1.0.0/AndroidManifest.xml:20:5-22:41
+INJECTED from /Users/maxx/WorkSpace/JetPackCompose/PassengerApp/app/src/main/AndroidManifest.xml
+INJECTED from /Users/maxx/WorkSpace/JetPackCompose/PassengerApp/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/maxx/WorkSpace/JetPackCompose/PassengerApp/app/src/main/AndroidManifest.xml
+		ADDED from /Users/maxx/WorkSpace/JetPackCompose/PassengerApp/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/maxx/WorkSpace/JetPackCompose/PassengerApp/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/maxx/WorkSpace/JetPackCompose/PassengerApp/app/src/main/AndroidManifest.xml
+		ADDED from /Users/maxx/WorkSpace/JetPackCompose/PassengerApp/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/maxx/WorkSpace/JetPackCompose/PassengerApp/app/src/main/AndroidManifest.xml
+activity#androidx.ui.tooling.preview.PreviewActivity
+ADDED from [androidx.ui:ui-tooling:1.0.0-alpha07] /Users/maxx/.gradle/caches/transforms-3/ae80aa34ceefb8140914d2a3b0e13800/transformed/ui-tooling-1.0.0-alpha07/AndroidManifest.xml:25:9-27:39
+	android:exported
+		ADDED from [androidx.ui:ui-tooling:1.0.0-alpha07] /Users/maxx/.gradle/caches/transforms-3/ae80aa34ceefb8140914d2a3b0e13800/transformed/ui-tooling-1.0.0-alpha07/AndroidManifest.xml:27:13-36
+	android:name
+		ADDED from [androidx.ui:ui-tooling:1.0.0-alpha07] /Users/maxx/.gradle/caches/transforms-3/ae80aa34ceefb8140914d2a3b0e13800/transformed/ui-tooling-1.0.0-alpha07/AndroidManifest.xml:26:13-71
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+IMPLIED from /Users/maxx/WorkSpace/JetPackCompose/PassengerApp/app/src/main/AndroidManifest.xml:2:1-23:12 reason: dagger.lint has a targetSdkVersion < 4
+uses-permission#android.permission.READ_PHONE_STATE
+IMPLIED from /Users/maxx/WorkSpace/JetPackCompose/PassengerApp/app/src/main/AndroidManifest.xml:2:1-23:12 reason: dagger.lint has a targetSdkVersion < 4
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+IMPLIED from /Users/maxx/WorkSpace/JetPackCompose/PassengerApp/app/src/main/AndroidManifest.xml:2:1-23:12 reason: dagger.lint requested WRITE_EXTERNAL_STORAGE

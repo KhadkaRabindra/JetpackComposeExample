@@ -1,0 +1,62 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.maxx.passengerapp"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/Users/maxx/WorkSpace/JetPackCompose/PassengerApp/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->/Users/maxx/WorkSpace/JetPackCompose/PassengerApp/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/maxx/WorkSpace/JetPackCompose/PassengerApp/app/src/main/AndroidManifest.xml:4:5-66
+11-->/Users/maxx/WorkSpace/JetPackCompose/PassengerApp/app/src/main/AndroidManifest.xml:4:22-64
+12    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+13    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+14    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+15
+16    <application
+16-->/Users/maxx/WorkSpace/JetPackCompose/PassengerApp/app/src/main/AndroidManifest.xml:6:5-21:19
+17        android:name="com.maxx.passengerapp.MyApplication"
+17-->/Users/maxx/WorkSpace/JetPackCompose/PassengerApp/app/src/main/AndroidManifest.xml:7:9-38
+18        android:allowBackup="true"
+18-->/Users/maxx/WorkSpace/JetPackCompose/PassengerApp/app/src/main/AndroidManifest.xml:8:9-35
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.5.0-alpha01] /Users/maxx/.gradle/caches/transforms-3/57df57a4385ee14fba58b9373586f848/transformed/core-1.5.0-alpha01/AndroidManifest.xml:24:18-86
+20        android:debuggable="true"
+21        android:icon="@mipmap/ic_launcher"
+21-->/Users/maxx/WorkSpace/JetPackCompose/PassengerApp/app/src/main/AndroidManifest.xml:9:9-43
+22        android:label="@string/app_name"
+22-->/Users/maxx/WorkSpace/JetPackCompose/PassengerApp/app/src/main/AndroidManifest.xml:10:9-41
+23        android:roundIcon="@mipmap/ic_launcher_round"
+23-->/Users/maxx/WorkSpace/JetPackCompose/PassengerApp/app/src/main/AndroidManifest.xml:11:9-54
+24        android:supportsRtl="true"
+24-->/Users/maxx/WorkSpace/JetPackCompose/PassengerApp/app/src/main/AndroidManifest.xml:12:9-35
+25        android:testOnly="true"
+26        android:theme="@style/Theme.PassengerApp" >
+26-->/Users/maxx/WorkSpace/JetPackCompose/PassengerApp/app/src/main/AndroidManifest.xml:13:9-50
+27        <activity android:name="com.maxx.passengerapp.presentation.ui.main.MainActivity" >
+27-->/Users/maxx/WorkSpace/JetPackCompose/PassengerApp/app/src/main/AndroidManifest.xml:14:9-20:20
+27-->/Users/maxx/WorkSpace/JetPackCompose/PassengerApp/app/src/main/AndroidManifest.xml:14:19-68
+28            <intent-filter>
+28-->/Users/maxx/WorkSpace/JetPackCompose/PassengerApp/app/src/main/AndroidManifest.xml:15:13-19:29
+29                <action android:name="android.intent.action.MAIN" />
+29-->/Users/maxx/WorkSpace/JetPackCompose/PassengerApp/app/src/main/AndroidManifest.xml:16:17-69
+29-->/Users/maxx/WorkSpace/JetPackCompose/PassengerApp/app/src/main/AndroidManifest.xml:16:25-66
+30
+31                <category android:name="android.intent.category.LAUNCHER" />
+31-->/Users/maxx/WorkSpace/JetPackCompose/PassengerApp/app/src/main/AndroidManifest.xml:18:17-77
+31-->/Users/maxx/WorkSpace/JetPackCompose/PassengerApp/app/src/main/AndroidManifest.xml:18:27-74
+32            </intent-filter>
+33        </activity>
+34        <activity
+34-->[androidx.ui:ui-tooling:1.0.0-alpha07] /Users/maxx/.gradle/caches/transforms-3/ae80aa34ceefb8140914d2a3b0e13800/transformed/ui-tooling-1.0.0-alpha07/AndroidManifest.xml:25:9-27:39
+35            android:name="androidx.ui.tooling.preview.PreviewActivity"
+35-->[androidx.ui:ui-tooling:1.0.0-alpha07] /Users/maxx/.gradle/caches/transforms-3/ae80aa34ceefb8140914d2a3b0e13800/transformed/ui-tooling-1.0.0-alpha07/AndroidManifest.xml:26:13-71
+36            android:exported="true" />
+36-->[androidx.ui:ui-tooling:1.0.0-alpha07] /Users/maxx/.gradle/caches/transforms-3/ae80aa34ceefb8140914d2a3b0e13800/transformed/ui-tooling-1.0.0-alpha07/AndroidManifest.xml:27:13-36
+37    </application>
+38
+39</manifest>

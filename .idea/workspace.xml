@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CUSTOM_FILTER" value="okhttp" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ae19a963-ae39-4a0e-b3fa-e654e4ba4964" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/maxx/passengerapp/presentation/ui/main/MainFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/maxx/passengerapp/presentation/ui/main/MainFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/maxx/passengerapp/presentation/ui/main/MainFragmentViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/maxx/passengerapp/presentation/ui/main/MainFragmentViewModel.kt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[VirtualDevicePath@/Users/maxx/.android/avd/Pixel_3a_XL_API_30.avd]" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="navigationResourceFile" />
+        <option value="Kotlin File" />
+        <option value="Kotlin Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1ngRuFuQvB6k5jnCXK6gROmzo0V" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="VirtualDevicePath@/Users/maxx/.android/avd/Pixel_3a_XL_API_30.avd" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2021-01-28T05:01:33.431195Z" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res/drawable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/java/com/maxx/passengerapp/presentation/components" />
+    <property name="memory.settings.postsync.last.time.stamp" value="1611809979397" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/src/main/java/com/maxx/passengerapp/presentation/ui/main" />
+    </key>
+    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="com.maxx.passengerapp.presentation.ui" />
+      <recent name="com.maxx.passengerapp.presentation" />
+    </key>
+    <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
+      <recent name="com.maxx.passengerapp.presentation.ui" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/src/main/java/com/maxx/passengerapp/presentation/components" />
+      <recent name="$PROJECT_DIR$/app/src/main/java/com/maxx/passengerapp/presentation/ui/detail" />
+      <recent name="$PROJECT_DIR$/app/src/main/res/drawable" />
+      <recent name="$PROJECT_DIR$/app/src/main/java/com/maxx/passengerapp" />
+      <recent name="$PROJECT_DIR$/app/src/main/java/com/maxx/passengerapp/presentation" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="PassengerApp.app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ALL_USERS" value="false" />
+      <option name="ALWAYS_INSTALL_WITH_PM" value="false" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
+      <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ae19a963-ae39-4a0e-b3fa-e654e4ba4964" name="Default Changelist" comment="" />
+      <created>1611809968178</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1611809968178</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="625" y="215" key="#com.intellij.ide.util.MemberChooser" timestamp="1611834096360">
+      <screen x="0" y="25" width="1680" height="940" />
+    </state>
+    <state x="625" y="215" key="#com.intellij.ide.util.MemberChooser/0.25.1680.940@0.25.1680.940" timestamp="1611834096360" />
+    <state x="407" y="423" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1611810714897">
+      <screen x="0" y="25" width="1680" height="940" />
+    </state>
+    <state x="407" y="423" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.25.1680.940@0.25.1680.940" timestamp="1611810714897" />
+    <state x="194" y="25" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1611834255885">
+      <screen x="0" y="25" width="1680" height="940" />
+    </state>
+    <state x="194" y="25" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.25.1680.940@0.25.1680.940" timestamp="1611834255885" />
+    <state x="578" y="246" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1611834284709">
+      <screen x="0" y="25" width="1680" height="940" />
+    </state>
+    <state x="578" y="246" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.25.1680.940@0.25.1680.940" timestamp="1611834284709" />
+    <state x="503" y="290" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog" timestamp="1611810874617">
+      <screen x="0" y="25" width="1680" height="940" />
+    </state>
+    <state x="503" y="290" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog/0.25.1680.940@0.25.1680.940" timestamp="1611810874617" />
+    <state x="603" y="202" key="#xdebugger.evaluate" timestamp="1611837588513">
+      <screen x="0" y="25" width="1680" height="940" />
+    </state>
+    <state x="603" y="202" key="#xdebugger.evaluate/0.25.1680.940@0.25.1680.940" timestamp="1611837588513" />
+    <state x="599" y="368" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1611824965183">
+      <screen x="0" y="25" width="1680" height="940" />
+    </state>
+    <state x="599" y="368" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.25.1680.940@0.25.1680.940" timestamp="1611824965183" />
+    <state x="428" y="254" key="AndroidCreateResourceDirectoryDialog" timestamp="1611810640832">
+      <screen x="0" y="25" width="1680" height="940" />
+    </state>
+    <state x="428" y="254" key="AndroidCreateResourceDirectoryDialog/0.25.1680.940@0.25.1680.940" timestamp="1611810640832" />
+    <state x="428" y="254" key="AndroidCreateResourceFileDialog" timestamp="1611810662685">
+      <screen x="0" y="25" width="1680" height="940" />
+    </state>
+    <state x="428" y="254" key="AndroidCreateResourceFileDialog/0.25.1680.940@0.25.1680.940" timestamp="1611810662685" />
+    <state width="1638" height="234" key="GridCell.Tab.0.bottom" timestamp="1611846407947">
+      <screen x="0" y="25" width="1680" height="940" />
+    </state>
+    <state width="1638" height="234" key="GridCell.Tab.0.bottom/0.25.1680.940@0.25.1680.940" timestamp="1611846407947" />
+    <state width="1638" height="234" key="GridCell.Tab.0.center" timestamp="1611846407946">
+      <screen x="0" y="25" width="1680" height="940" />
+    </state>
+    <state width="1638" height="234" key="GridCell.Tab.0.center/0.25.1680.940@0.25.1680.940" timestamp="1611846407946" />
+    <state width="1638" height="234" key="GridCell.Tab.0.left" timestamp="1611846407945">
+      <screen x="0" y="25" width="1680" height="940" />
+    </state>
+    <state width="1638" height="234" key="GridCell.Tab.0.left/0.25.1680.940@0.25.1680.940" timestamp="1611846407945" />
+    <state width="1638" height="234" key="GridCell.Tab.0.right" timestamp="1611846407946">
+      <screen x="0" y="25" width="1680" height="940" />
+    </state>
+    <state width="1638" height="234" key="GridCell.Tab.0.right/0.25.1680.940@0.25.1680.940" timestamp="1611846407946" />
+    <state width="1638" height="249" key="GridCell.Tab.1.bottom" timestamp="1611838815618">
+      <screen x="0" y="25" width="1680" height="940" />
+    </state>
+    <state width="1638" height="249" key="GridCell.Tab.1.bottom/0.25.1680.940@0.25.1680.940" timestamp="1611838815618" />
+    <state width="1638" height="249" key="GridCell.Tab.1.center" timestamp="1611838815617">
+      <screen x="0" y="25" width="1680" height="940" />
+    </state>
+    <state width="1638" height="249" key="GridCell.Tab.1.center/0.25.1680.940@0.25.1680.940" timestamp="1611838815617" />
+    <state width="1638" height="249" key="GridCell.Tab.1.left" timestamp="1611838815617">
+      <screen x="0" y="25" width="1680" height="940" />
+    </state>
+    <state width="1638" height="249" key="GridCell.Tab.1.left/0.25.1680.940@0.25.1680.940" timestamp="1611838815617" />
+    <state width="1638" height="249" key="GridCell.Tab.1.right" timestamp="1611838815617">
+      <screen x="0" y="25" width="1680" height="940" />
+    </state>
+    <state width="1638" height="249" key="GridCell.Tab.1.right/0.25.1680.940@0.25.1680.940" timestamp="1611838815617" />
+    <state width="840" height="470" key="XDebugger.FullValuePopup" timestamp="1611837586722">
+      <screen x="0" y="25" width="1680" height="940" />
+    </state>
+    <state width="840" height="470" key="XDebugger.FullValuePopup/0.25.1680.940@0.25.1680.940" timestamp="1611837586722" />
+    <state x="631" y="277" key="chooseDestDirectoryDialog" timestamp="1611813918126">
+      <screen x="0" y="25" width="1680" height="940" />
+    </state>
+    <state x="631" y="277" key="chooseDestDirectoryDialog/0.25.1680.940@0.25.1680.940" timestamp="1611813918126" />
+    <state x="505" y="231" width="670" height="676" key="search.everywhere.popup" timestamp="1611837037292">
+      <screen x="0" y="25" width="1680" height="940" />
+    </state>
+    <state x="505" y="231" width="670" height="676" key="search.everywhere.popup/0.25.1680.940@0.25.1680.940" timestamp="1611837037292" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/maxx/passengerapp/presentation/ui/detail/DetailFragment.kt</url>
+          <line>40</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/maxx/passengerapp/presentation/ui/detail/DetailFragment.kt</url>
+          <line>41</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/maxx/passengerapp/util/PassengerDeserializer.kt</url>
+          <line>22</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

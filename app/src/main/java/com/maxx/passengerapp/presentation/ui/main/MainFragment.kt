@@ -19,8 +19,6 @@ import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.ExperimentalCoroutinesApi
 import javax.inject.Inject
 
-const val IMAGE_HEIGHT = 260
-
 @ExperimentalMaterialApi
 @ExperimentalCoroutinesApi
 @AndroidEntryPoint

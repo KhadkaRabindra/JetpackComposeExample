@@ -19,7 +19,6 @@ const val PAGE_SIZE = 30
 const val STATE_KEY_PAGE = "passenger.state.page.key"
 const val STATE_KEY_QUERY = "passenger.state.query.key"
 const val STATE_KEY_LIST_POSITION = "passenger.state.query.list_position"
-const val STATE_KEY_SELECTED_CATEGORY = "passenger.state.query.selected_category"
 
 class MainFragmentViewModel
 @ViewModelInject
@@ -31,10 +30,6 @@ constructor(
     val passengers: MutableState<List<Passenger>> = mutableStateOf(ArrayList())
 
     val query = mutableStateOf("")
-
-    val selectedCategory: MutableState<FoodCategory?> = mutableStateOf(null)
-
-    var categoryScrollPosition: Float = 0f
 
     val loading = mutableStateOf(false)
 
@@ -52,9 +47,6 @@ constructor(
         }
         savedStateHandle.get<Int>(STATE_KEY_LIST_POSITION)?.let { p ->
             setListScrollPosition(p)
-        }
-        savedStateHandle.get<FoodCategory>(STATE_KEY_SELECTED_CATEGORY)?.let { c ->
-            setSelectedCategory(c)
         }
 
         if (recipeListScrollPosition != 0) {
@@ -163,27 +155,8 @@ constructor(
         passengers.value = listOf()
         page.value = 1
         onChangeRecipeScrollPosition(0)
-        if (selectedCategory.value?.value != query.value) clearSelectedCategory()
     }
 
-    private fun clearSelectedCategory() {
-        setSelectedCategory(null)
-        selectedCategory.value = null
-    }
-
-    fun onQueryChanged(query: String) {
-        setQuery(query)
-    }
-
-    fun onSelectedCategoryChanged(category: String) {
-        val newCategory = getFoodCategory(category)
-        setSelectedCategory(newCategory)
-        onQueryChanged(category)
-    }
-
-    fun onChangeCategoryScrollPosition(position: Float) {
-        categoryScrollPosition = position
-    }
 
     private fun setListScrollPosition(position: Int) {
         recipeListScrollPosition = position
@@ -193,11 +166,6 @@ constructor(
     private fun setPage(page: Int) {
         this.page.value = page
         savedStateHandle.set(STATE_KEY_PAGE, page)
-    }
-
-    private fun setSelectedCategory(category: FoodCategory?) {
-        selectedCategory.value = category
-        savedStateHandle.set(STATE_KEY_SELECTED_CATEGORY, category)
     }
 
     private fun setQuery(query: String) {

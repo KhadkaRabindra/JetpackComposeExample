@@ -5,21 +5,29 @@ import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.compose.animation.animatedColor
 import androidx.compose.foundation.layout.*
-import androidx.compose.material.ExperimentalMaterialApi
-import androidx.compose.material.Scaffold
-import androidx.compose.material.rememberScaffoldState
+import androidx.compose.material.*
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.ArrowBack
+import androidx.compose.material.icons.filled.Menu
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.ComposeView
+import androidx.compose.ui.res.colorResource
+import androidx.compose.ui.unit.TextUnit
 import androidx.compose.ui.unit.dp
+import androidx.core.content.ContextCompat
+import androidx.core.view.size
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
 import androidx.lifecycle.lifecycleScope
 import com.codingwithmitch.mvvmrecipeapp.presentation.theme.AppTheme
 import com.maxx.passengerapp.MyApplication
+import com.maxx.passengerapp.R
 import com.maxx.passengerapp.presentation.components.*
 import com.maxx.passengerapp.presentation.components.util.SnackbarController
+import com.maxx.passengerapp.util.ColorUtils
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.ExperimentalCoroutinesApi
 import javax.inject.Inject
@@ -68,7 +76,29 @@ class DetailFragment : Fragment() {
                         scaffoldState = scaffoldState,
                         snackbarHost = {
                             scaffoldState.snackbarHostState
+                        },
+                        topBar = {
+                            TopAppBar(
+                                title = {
+                                    Text(
+                                        text = "PassengerApp",
+                                        color = ColorUtils.getColor("FFFFFFFF"),
+                                        fontSize = TextUnit.Sp(20)
+                                    )
+                                },
+                                backgroundColor = ColorUtils.getColor("FF3700B3"),
+                                navigationIcon = {
+                                    IconButton(onClick = {
+                                        requireActivity().onBackPressed()
+                                    }) {
+                                        Icon(Icons.Filled.ArrowBack, tint = ColorUtils.getColor("FFFFFFFF"))
+                                    }
+                                }
+
+                            )
                         }
+
+
                     ) {
                         Box(
                             modifier = Modifier.fillMaxSize()
@@ -92,11 +122,6 @@ class DetailFragment : Fragment() {
                                     )
                                 }
                             }
-
-                            CircularIndeterminateProgressBar(
-                                isDisplayed = loading,
-                                verticalBias = 0.3f
-                            )
                             DefaultSnackbar(
                                 snackbarHostState = scaffoldState.snackbarHostState,
                                 onDismiss = {

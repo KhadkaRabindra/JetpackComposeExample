@@ -22,7 +22,7 @@ fun AirlineList(
         .background(color = MaterialTheme.colors.surface)
     ) {
         if (loading && airlines.isEmpty()) {
-            LoadingRecipeListShimmer(imageHeight = 250.dp,)
+            //LoadingRecipeListShimmer(imageHeight = 250.dp,)
         } else {
             LazyColumn{
                 itemsIndexed(

@@ -15,15 +15,12 @@ import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.input.ImeAction
 import androidx.compose.ui.text.input.KeyboardType
 import androidx.compose.ui.unit.dp
-import com.maxx.passengerapp.presentation.ui.main.FoodCategory
 
 @Composable
 fun SearchAppBar(
         query: String,
         onQueryChanged: (String) -> Unit,
         onExecuteSearch: () -> Unit,
-        categories: List<FoodCategory>,
-        selectedCategory: FoodCategory?,
         onSelectedCategoryChanged: (String) -> Unit,
         scrollPosition: Float,
         onChangeScrollPosition: (Float) -> Unit,
@@ -93,20 +90,6 @@ fun SearchAppBar(
 
                 // restore scroll position after rotation
                 scrollState.scrollTo(scrollPosition)
-
-                for(category in categories){
-                    FoodCategoryChip(
-                            category = category.value,
-                            isSelected = selectedCategory == category,
-                            onSelectedCategoryChanged = {
-                                onChangeScrollPosition(scrollState.value)
-                                onSelectedCategoryChanged(it)
-                            },
-                            onExecuteSearch = {
-                                onExecuteSearch()
-                            },
-                    )
-                }
             }
         }
     }

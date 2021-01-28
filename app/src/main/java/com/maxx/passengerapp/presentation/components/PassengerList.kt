@@ -36,7 +36,7 @@ fun PassengerList(
         .background(color = MaterialTheme.colors.surface)
     ) {
         if (loading && passengers.isEmpty()) {
-            LoadingRecipeListShimmer(imageHeight = 70.dp,)
+            //LoadingRecipeListShimmer(imageHeight = 70.dp,)
         } else {
             LazyColumn{
                 itemsIndexed(

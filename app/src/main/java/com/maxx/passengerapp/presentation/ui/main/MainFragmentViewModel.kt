@@ -50,9 +50,9 @@ constructor(
         }
 
         if (recipeListScrollPosition != 0) {
-            onTriggerEvent(PassengerListEvent.RestoreStateEvent)
+            onTriggerEvent(RestoreStateEvent)
         } else {
-            onTriggerEvent(PassengerListEvent.NewSearchEvent)
+            onTriggerEvent(NewSearchEvent)
         }
 
     }

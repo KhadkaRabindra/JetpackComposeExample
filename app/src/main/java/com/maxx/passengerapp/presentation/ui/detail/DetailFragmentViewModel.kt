@@ -23,13 +23,13 @@ constructor(
 ) : ViewModel() {
 
 
-    val recipe: MutableState<Passenger?> = mutableStateOf(null)
+    val passengerLiveData: MutableState<Passenger?> = mutableStateOf(null)
 
     val loading = mutableStateOf(false)
 
     init {
         // restore if process dies
-        state.get<Int>(STATE_KEY_RECIPE)?.let{ recipeId ->
+        state.get<String>(STATE_KEY_RECIPE)?.let{ recipeId ->
             onTriggerEvent(PassengerEvent.GetPassengerEvent(recipeId))
         }
     }
@@ -39,7 +39,7 @@ constructor(
             try {
                 when(event){
                     is PassengerEvent.GetPassengerEvent -> {
-                        if(recipe.value == null){
+                        if(passengerLiveData.value == null){
                             getRecipe(event.id)
                         }
                     }
@@ -51,17 +51,17 @@ constructor(
         }
     }
 
-    private suspend fun getRecipe(id: Int){
+    private suspend fun getRecipe(id: String){
         loading.value = true
 
         // simulate a delay to show loading
         delay(1000)
 
-        /*val recipe = repository.get(token=token, id=id)
-        this.recipe.value = recipe
+        val passenger = repository.getPassengerById(id=id)
+        this.passengerLiveData.value = passenger
 
-        state.set(STATE_KEY_RECIPE, recipe.id)
+        state.set(STATE_KEY_RECIPE, passenger.id)
 
-        loading.value = false*/
+        loading.value = false
     }
 }

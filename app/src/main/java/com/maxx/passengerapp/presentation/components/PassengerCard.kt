@@ -56,7 +56,7 @@ fun PassengerCard(
                         .padding(top=12.dp, bottom=12.dp, start = 8.dp, end=8.dp)
                 ){
                     Text(
-                        text = "Name $title",
+                        text = "Name : $title",
                         modifier = Modifier
                             .fillMaxWidth(0.85f)
                             .wrapContentWidth(Alignment.Start)
@@ -65,7 +65,7 @@ fun PassengerCard(
                     )
                     val trips  = passenger.trips.toString()
                     Text(
-                        text = "Trips $trips",
+                        text = "Trips : $trips",
                         modifier = Modifier
                             .fillMaxWidth()
                             .wrapContentWidth(Alignment.Start)

@@ -21,7 +21,7 @@ import com.maxx.passengerapp.presentation.components.util.ShimmerAnimationDefini
 import com.maxx.passengerapp.presentation.components.util.ShimmerAnimationDefinitions.AnimationState.START
 
 @Composable
-fun LoadingRecipeShimmer(
+fun LoadingPassengerShimmer(
     imageHeight: Dp,
     padding: Dp = 16.dp
 ){

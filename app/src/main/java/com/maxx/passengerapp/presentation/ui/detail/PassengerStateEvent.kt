@@ -3,7 +3,7 @@ package com.maxx.passengerapp.presentation.ui.detail
 sealed class PassengerEvent{
 
     data class GetPassengerEvent(
-        val id: Int
+        val id: String
     ): PassengerEvent()
 
 }

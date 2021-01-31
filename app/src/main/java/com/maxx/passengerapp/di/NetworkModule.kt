@@ -29,10 +29,10 @@ object NetworkModule {
 
     @Singleton
     @Provides
-    fun provideRecipeService(): PassengerService {
+    fun provideRecipeService(okHttpClient: OkHttpClient): PassengerService {
         return Retrofit.Builder()
             .baseUrl("https://api.instantwebtools.net/v1/")
-            .client(provideOkHttpClient())
+            .client(okHttpClient)
             .addConverterFactory(GsonConverterFactory.create(provideConverter()))
             .build()
             .create(PassengerService::class.java)
